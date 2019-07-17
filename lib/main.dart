@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_demo_components/src/examples/navigator/TabsController.dart';
-import 'package:flutter_demo_components/src/examples/banner/UiSwiper.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,8 +21,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-//      home: TabsNavigator(),
-      home: Center(child: Column(children: <Widget>[UiSwipe()],),),
+      home: TabsNavigator(),
     );
   }
 }
